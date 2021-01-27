@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="wellbe">
+
+	<listeners>
+		<listener class-name="com.wellbe.uility.TC_logIn0001" />
+	</listeners>
+
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pom.wellbe.testcases.TC_logIn0001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
