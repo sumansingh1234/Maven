@@ -7,7 +7,6 @@
         <methods>
           <include name="Login"/>
           <include name="personalInformation"/>
-          <include name="LoginTest"/>
         </methods>
       </class> <!-- pom.wellbe.testcases.TC_logIn0001 -->
     </classes>

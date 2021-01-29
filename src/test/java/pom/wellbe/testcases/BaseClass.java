@@ -2,6 +2,7 @@ package pom.wellbe.testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
@@ -14,7 +15,13 @@ public class BaseClass {
 	public String firstname ="suman";
 	public String lastname ="kumar";
 	public String company ="tesla";
+	public String address ="japan";
 	public String emailid ="sumansingh.infoo@gmail.com";
+	public String address1 ="japan1";
+	public String city ="benglure";
+	public String pincode ="801307";
+    public String other ="sumancomp";
+	
 	public static WebDriver driver;
 	@BeforeClass
 	public void Login() {
@@ -23,8 +30,12 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		
 	}
-	
-	
+	@AfterClass
+	public void logout() {
+		
+		driver.close();
+		
+	}
 	
 	
 }

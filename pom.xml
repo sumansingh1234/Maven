@@ -34,7 +34,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>testngsuman.xml</suiteXmlFile>
+						<suiteXmlFile>testngsumankumar.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

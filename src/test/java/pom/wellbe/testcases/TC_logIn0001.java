@@ -2,13 +2,9 @@ package pom.wellbe.testcases;
 
 import java.util.concurrent.TimeUnit;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pom.wellbe.pageobject.LogInpage;
-
-
-
 
 public class TC_logIn0001 extends BaseClass {
 
@@ -37,8 +33,18 @@ public class TC_logIn0001 extends BaseClass {
 	    login.selectsalutaion();	    
         login.firstname(firstname);
 		login.lastname(lastname);
-		login.Company(emailid);
-		
+		login.Company(company);
+		login.address(address);
+		login.address1(address1);
+		login.city(city);
+		login.state();
+		login.pincode(pincode);
+		login.country();
+	    login.other(other);
+	    login.showalert();
+	    login.acceptalert();
+	    login.alertaccept();
+	    login.closewindow();
 	}
 	
 	
